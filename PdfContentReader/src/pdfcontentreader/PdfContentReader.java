@@ -32,7 +32,7 @@ public class PdfContentReader {
             = new BodyContentHandler();
  
         // Create a file in local directory
-        File f = new File("C:/extractcontent.pdf");
+        File f = new File("C:/sample.pdf");
  
         // Create a file input stream
         // on specified path with the created file
