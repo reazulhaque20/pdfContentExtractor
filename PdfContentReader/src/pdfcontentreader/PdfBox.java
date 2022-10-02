@@ -25,6 +25,7 @@ public class PdfBox {
       //Retrieving text from PDF document
       String text = pdfStripper.getText(document);
       System.out.println(text);
+      System.out.println(text.subSequence(9, 19));
 
       //Closing the document
       document.close();
