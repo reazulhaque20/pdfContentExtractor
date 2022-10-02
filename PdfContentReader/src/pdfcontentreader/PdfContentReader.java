@@ -28,34 +28,15 @@ public class PdfContentReader {
     public static void main(String[] args) throws FileNotFoundException, IOException, SAXException, TikaException {
         // TODO code application logic here
         // Create a content handler
-        BodyContentHandler contenthandler
-            = new BodyContentHandler();
- 
-        // Create a file in local directory
-        File f = new File("C:/sample.pdf");
- 
-        // Create a file input stream
-        // on specified path with the created file
-        FileInputStream fstream = new FileInputStream(f);
- 
-        // Create an object of type Metadata to use
-        Metadata data = new Metadata();
- 
-        // Create a context parser for the pdf document
-        ParseContext context = new ParseContext();
- 
-        // PDF document can be parsed using the PDFparser
-        // class
-        PDFParser pdfparser = new PDFParser();
- 
-        // Method parse invoked on PDFParser class
-        pdfparser.parse(fstream, contenthandler, data,
-                        context);
- 
-        // Printing the contents of the pdf document
-        // using toString() method in java
-        System.out.println("Extracting contents :"
-                           + contenthandler.toString());
+        File file = new File("C:/invoice.pdf");
+//        ApacheTika apacheTika = new ApacheTika();
+//        apacheTika.run(file);
+
+//        ITextReader iTextReader = new ITextReader();
+//        iTextReader.run();
+
+        PdfBox pdfBox = new PdfBox();
+        pdfBox.run(file);
     }
     
 }
