@@ -32,11 +32,11 @@ public class PdfContentReader {
 //        ApacheTika apacheTika = new ApacheTika();
 //        apacheTika.run(file);
 
-//        ITextReader iTextReader = new ITextReader();
-//        iTextReader.run();
+        ITextReader iTextReader = new ITextReader();
+        iTextReader.run2();
 
-        PdfBox pdfBox = new PdfBox();
-        pdfBox.run(file);
+//        PdfBox pdfBox = new PdfBox();
+//        pdfBox.run2();
     }
     
 }
