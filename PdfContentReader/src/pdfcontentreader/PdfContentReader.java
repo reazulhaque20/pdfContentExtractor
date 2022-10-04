@@ -28,7 +28,7 @@ public class PdfContentReader {
     public static void main(String[] args) throws FileNotFoundException, IOException, SAXException, TikaException {
         // TODO code application logic here
         // Create a content handler
-        File file = new File("C:/invoice.pdf");
+        File file = new File("Order-AD-226271811_202210024809.pdf");
 //        ApacheTika apacheTika = new ApacheTika();
 //        apacheTika.run(file);
 

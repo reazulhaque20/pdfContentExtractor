@@ -44,7 +44,7 @@ public class PdfBox extends PDFTextStripper{
     
     public void run2() throws IOException{
         PDDocument document = null;
-        String fileName = "c:\\invoice.pdf";
+        String fileName = "Order-AD-226271811_202210024809.pdf";
         try {
             document = PDDocument.load( new File(fileName) );
             PDFTextStripper stripper = new PdfBox();

@@ -22,7 +22,7 @@ public class ITextReader {
 
     public void run() {
         try {
-            PdfReader pdf = new PdfReader("C:\\invoice.pdf");
+            PdfReader pdf = new PdfReader("Order-AD-226271811_202210024809.pdf");
             int nbrPages = pdf.getNumberOfPages();
             for (int i = 1; i <= nbrPages; i++) {
                 String content = PdfTextExtractor.getTextFromPage(pdf, i);
@@ -34,11 +34,11 @@ public class ITextReader {
         }
     }
     public void run2(){
-        final float x=479.991f;
-        final float y=70.80975f; 
+        final float x=100f;
+        final float y=100f; 
         final float width=6; 
         final float height=5; 
-        final String pdfFilePath="C:\\invoice.pdf";
+        final String pdfFilePath="Order-AD-226271811_202210024809.pdf";
         String text = null;
         try {
             final PdfReader pdfReader = new PdfReader(pdfFilePath);
