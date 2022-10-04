@@ -46,7 +46,7 @@ public class RunExamples {
 //        GetDocumentInfo.run();
 //        GetSupportedFeatures.run();
 //        GetSupportedFileFormats.run();
-        ParseDataFromDocuments.run();
+//        ParseDataFromDocuments.run();
 
         // Advanced Usage
 
@@ -189,7 +189,7 @@ public class RunExamples {
 //        com.groupdocs.parser.examples.advanced_usage.extract_data_from_various_formats.pdf.ExtractImages.run();
 //        com.groupdocs.parser.examples.advanced_usage.extract_data_from_various_formats.pdf.ExtractMetadata.run();
 //        com.groupdocs.parser.examples.advanced_usage.extract_data_from_various_formats.pdf.ExtractText.run();
-        com.groupdocs.parser.examples.advanced_usage.extract_data_from_various_formats.pdf.ParseDataFromDocuments.run();
+//        com.groupdocs.parser.examples.advanced_usage.extract_data_from_various_formats.pdf.ParseDataFromDocuments.run();
 //        com.groupdocs.parser.examples.advanced_usage.extract_data_from_various_formats.pdf.ExtractTextFromPage.run();
 //        com.groupdocs.parser.examples.advanced_usage.extract_data_from_various_formats.pdf.ExtractTextFromPageInRawMode.run();
 //        com.groupdocs.parser.examples.advanced_usage.extract_data_from_various_formats.pdf.SearchTextByKeyword.run();
